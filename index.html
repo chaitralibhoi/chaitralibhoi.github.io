@@ -3,49 +3,159 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Chaitra — Home</title>
-  <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:#111; margin:0; background:#f7f7fb; }
-    .wrap { max-width:900px; margin:48px auto; background:#fff; padding:28px; border-radius:12px; box-shadow:0 6px 20px rgba(16,24,40,0.06); }
-    header { display:flex; gap:16px; align-items:center; }
-    .avatar { width:84px; height:84px; border-radius:12px; background:#e6e6ef; display:inline-block; }
-    h1 { margin:0; font-size:28px; }
-    p.lead { margin:8px 0 18px; color:#334155; }
-    .links a { margin-right:12px; color:#0b63d6; text-decoration:none; }
-    footer { margin-top:26px; color:#64748b; font-size:13px; }
-    @media (max-width:520px){ .wrap{ margin:20px;padding:18px } header{flex-direction:row} h1{font-size:20px} }
-  </style>
+  <title>Chaitrali Bhoi — Research Associate</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <main class="wrap">
-    <header>
-      <div class="avatar" aria-hidden="true"></div>
-      <div>
-        <h1>Hi — I'm Chaitra</h1>
-        <p class="lead">Welcome to my GitHub Pages profile. I build things and learn new tech. This is my personal site.</p>
-        <div class="links">
-          <a href="https://github.com/chaitralibhoi" target="_blank" rel="noopener">GitHub</a>
-          <a href="mailto:your-email@example.com">Email</a>
-        </div>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">
+        <a href="#hero">Chaitrali Bhoi</a>
       </div>
-    </header>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Work</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-    <section>
-      <h2>About</h2>
-      <p>I’m a developer who likes simple, clear projects. Update this content to show your bio, projects, and links.</p>
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 class="reveal">Chaitrali Bhoi</h1>
+          <p class="tagline reveal">Researcher in Digital Public Infrastructure, Open Networks and Carbon Market</p>
+          <p class="lead reveal">
+            Research Associate — Center for Digital Public Goods, Indian Institute of Management Bangalore.
+            I work on DPI, data policy, protocols and open networks to design scalable, context-aware systems.
+          </p>
+
+          <div class="cta reveal">
+            <a class="btn" href="#contact">Contact</a>
+            <a class="btn ghost" href="#publications">Publications</a>
+          </div>
+
+          <div class="social reveal">
+            <a href="https://github.com/chaitralibhoi" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/chaitrali-bhoi/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:chaitrali.bhoi@iimb.ac.in">Email</a>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal">
+          <div class="avatar">
+            <!-- Placeholder avatar: replace when you upload a photo -->
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop&crop=faces" alt="Chaitrali Bhoi">
+          </div>
+          <div class="card-body">
+            <h3>Research Associate</h3>
+            <p>Center for Digital Public Goods, IIM Bangalore</p>
+            <ul class="meta">
+              <li>Education: MSc Management, Queen Mary University of London</li>
+              <li>Patent: Machine for Spiral dough Caster (Design Patent No. 491857)</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
     </section>
 
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li>Project A — short description</li>
-        <li>Project B — short description</li>
+    <section id="about" class="section container reveal-section">
+      <h2>About</h2>
+      <p>Chaitrali Bhoi is Research Associate at the Center for Digital Public Goods, Indian Institute of Management Bangalore, India. Her areas of research include Digital Public Infrastructure (DPI), Data Policy, Protocols and Networks. Her work includes contributions to data management policy, leveraging protocols and open networks to design scalable DPI systems, and context-specific DPI implementation.</p>
+    </section>
+
+    <section id="research" class="section container reveal-section">
+      <h2>Research Interests</h2>
+      <ul class="bullets">
+        <li>Digital Platform Ecosystems</li>
+        <li>Protocols and Open Networks</li>
+        <li>Digital Public Infrastructure & Digital Public Goods</li>
+        <li>Data Policy and Governance</li>
+        <li>Digital Market-Making</li>
       </ul>
     </section>
 
-    <footer>
-      <div>Built with GitHub Pages • <a href="https://chaitralibhoi.github.io" target="_blank" rel="noopener">chaitralibhoi.github.io</a></div>
-    </footer>
+    <section id="projects" class="section container reveal-section">
+      <h2>Education & Professional Experience</h2>
+
+      <div class="grid two-col">
+        <div>
+          <h3>Education</h3>
+          <ul>
+            <li>Master of Science in Management (2022–23), Queen Mary University of London, UK</li>
+            <li>B.E. Mechanical Engineering (2015–19), University of Pune, India</li>
+            <li>Completed CITI Certification for Human Subjects Research (HSR)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Professional Experience</h3>
+          <ul>
+            <li>Research Associate — Center for Digital Public Goods, IIM Bangalore (Nov 2024 – Present)</li>
+            <li>Research Assistant — Queen Mary University of London (Jan 2023 – Apr 2023)</li>
+            <li>Assistant Manager, Supply Chain — Hero MotoCorp Ltd, Neemrana (Jul 2019 – Aug 2020)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section container reveal-section">
+      <h2>Publications, Patents & Manuscripts</h2>
+
+      <details open>
+        <summary><strong>Selected publications & chapters</strong></summary>
+        <ul class="pub-list">
+          <li>“State of DPI in Healthcare” — chapter in annual report ‘State of DPI in India’ (Global Fintech Festival 2025) — Srinivasan, R.; Prabhu, Vikas N.; Sharma, A.; Chakraborty, N.; Bhoi, C. (2025)</li>
+          <li>“IUDX: Leveraging data for managing smart cities” — case study (Edward Elgar Publishing — accepted) — R. Srinivasan; C. Bhoi; M. Malieckal; A. Gurtoo</li>
+          <li>“A Participative Management Approach Using the Company Democracy Model…” — AHFE Open Access (2025) — Markopoulos et al.; C. Anil Bhoi</li>
+          <li>“Data Management Policy Framework: Guidelines for Non-Personal Data Governance” — Policy White Paper & Handbook for MeitY (2025)</li>
+          <li>Design Patent: Machine for Spiral dough Caster (Patent No. 491857) — Dec 2023</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Manuscripts under review / work in progress</strong></summary>
+        <ul class="pub-list">
+          <li>“Not everyone is ready for Digital Public Infrastructures: DPI implementation readiness index” — under review (Communications of the AIS)</li>
+          <li>“Beckn Protocol: Orchestrating our digital future” — case study (under review, Harvard Business School Publishing)</li>
+          <li>“Forest Stack as a Digital Public Infrastructure for Digital Forest Management in India” — under review (Harvard Business School Publishing)</li>
+          <li>Multiple other working papers on DPI, carbon markets & digital registries (details available on request)</li>
+        </ul>
+      </details>
+
+      <h3 class="mt">Work in progress & Projects</h3>
+      <ul>
+        <li>Developing DPI Implementation Readiness Index using Digitally enabled Asset Identity (DeAI) + ABM simulation</li>
+        <li>Concept paper: leveraging Beckn Protocol for an open network for Indian Carbon Market</li>
+        <li>Policy paper on Sustainable and Digital Forest Governance in India (with MoEFCC, IIFM, IISc)</li>
+        <li>Multiple case studies on IUDX, institutional entrepreneurship, and data sharing economics</li>
+      </ul>
+    </section>
+
+    <section id="accomplishments" class="section container reveal-section">
+      <h2>Accomplishments</h2>
+      <ul>
+        <li>Delegate at Global DPI Summit 2025, Cape Town (UNDP invite)</li>
+        <li>Research poster presentation at IISc (July 2024)</li>
+        <li>Queen Mary University of London Research Bursary Award (Dec 2022)</li>
+        <li>Design Patent Grant (Dec 2023)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section container reveal-section">
+      <h2>Contact</h2>
+      <p>If you'd like to get in touch, email me at <a href="mailto:chaitrali.bhoi@iimb.ac.in">chaitrali.bhoi@iimb.ac.in</a> or <a href="mailto:bhoica97@gmail.com">bhoica97@gmail.com</a>. You can also find me on <a href="https://www.linkedin.com/in/chaitrali-bhoi/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+      <p class="muted">© <span id="year"></span> Chaitrali Bhoi</p>
+    </section>
   </main>
+
+  <script src="assets/main.js"></script>
 </body>
 </html>
