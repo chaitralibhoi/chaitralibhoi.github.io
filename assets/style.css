@@ -1,36 +1,14 @@
-.header {
-    background-color: #ffffff;
-    color: #000000;
+.container {
+  background-color: black;
+  color: white;
 }
 
-button {
-    background-color: #800000;
-    color: #ffffff;
+h1, h2, h3, h4, h5, h6 {
+  color: blue;
 }
 
-button:hover {
-    background-color: #6b7280;
+p {
+  color: lightgray;
 }
 
-.card {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-section {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-a {
-    color: #800000;
-}
-
-a:hover {
-    color: #6b7280;
-}
-
-body {
-    background-color: #ffffff;
-    color: #000000;
-}
+/* Other styles... */
